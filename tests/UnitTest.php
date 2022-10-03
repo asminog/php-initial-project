@@ -1,7 +1,7 @@
 <?php
 
 
-use Asminog\Wr\Catalog\Domain\Unit;
+use Asminog\Template\Unit;
 use PHPUnit\Framework\TestCase;
 
 class UnitTest extends TestCase
