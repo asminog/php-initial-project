@@ -27,10 +27,10 @@ class UnitTest extends TestCase
      * @coversNothing
      * @depends testFirst
      */
-    public function testSecond(Unit $vacancy): Unit
+    public function testSecond(Unit $unit): Unit
     {
-        $this->assertTrue($vacancy->test(true));
+        $this->assertTrue($unit->test(true));
 
-        return $vacancy;
+        return $unit;
     }
 }
